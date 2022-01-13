@@ -1,2 +1,2 @@
 Hello, world!
-My name is Advaith Ravishanakr and my favourite animal is an elephant! yay.
+My name is Advaith Ravishankar and my favourite animal is an elephant! yay.
