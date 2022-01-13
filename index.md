@@ -6,7 +6,7 @@ In this website, there are several links given below which direct you to the var
 
 ***
 
-1. [LAB WEEK 2](https://advaithravishankar.github.io/cse15l-lab-reports/lab-week-2.html)
+1. [LAB WEEK 2](https://advaithravishankar.github.io/cse15l-lab-reports/labs/lab-week-2.html)
 
 
 ***
