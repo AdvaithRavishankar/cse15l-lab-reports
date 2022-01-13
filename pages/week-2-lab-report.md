@@ -41,6 +41,22 @@ running the commands on the terminal leads to the following result:
 
 ## Step 4. Moving Files From Client to Server
 
+To move files from the client on the server, an scp command must be run from the terminal from the client. In VScode, create a file called WhereAmI.java with the following content:
+
+class WhereAmI {
+    public static void main(String[] args) {
+      System.out.println(System.getProperty("os.name"));
+      System.out.println(System.getProperty("user.name"));
+      System.out.println(System.getProperty("user.home"));
+      System.out.println(System.getProperty("user.dir"));
+    }
+  }
+
+Then, on the terminal, type: scp WhereAmI.java cs15lwi22zzz@ieng6.ucsd.edu:~/. Your password will be asked and then the file will be uploaded.
+
+Next step, access the terminal as in step 2 and the tyoe the ls command. You will see the WhereAmI.java on the list. Run the javac and java command, resulting in the necessary output.
+
+![Step 4 Image 1](../images/lab-report-week-2/step4_1.png)
 
 
 
