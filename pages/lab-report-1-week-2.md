@@ -1,1 +1,1 @@
-![Rick](../Rick.png)
+![Rick](../images/home/Rick.png)
