@@ -1,6 +1,6 @@
 ## Welcome To Advaith Ravishankar's CSE15L Website
 ***
-In this website, there are several links given below which direct you to the various projects I have worked on in this course. So, let go started!
+In this website, there are several links given below which direct you to the various projects I have worked on in this course. So, let's get started!
 
 ![HomePageImage](./images/index/index_page.png)
 
