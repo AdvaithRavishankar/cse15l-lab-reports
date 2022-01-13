@@ -1,7 +1,7 @@
 # Welcome To Advaith Ravishankar's CSE15L Website
 
 **In this Website, there are several links given below which direct you to the various projects I have worked on in this course. So, let go started!
-![HomePageImage](./images/index/index_page.html)
+![HomePageImage](./images/index/index_page.png)
 
 Click on [this](https://advaithravishankar.github.io/cse15l-lab-reports/home.html) to go to the home page.
 
