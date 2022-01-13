@@ -1,1 +1,1 @@
-![Rick](Rick.png)
+![Rick](../Rick.png)
