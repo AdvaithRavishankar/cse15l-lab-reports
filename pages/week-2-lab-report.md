@@ -1,6 +1,6 @@
 # Week 2 Lab Report 
 ***
-In this lab report, I shall go over the steps on how to set up the environment to access a remote server and running commands on the server. This report will involve 6 steps which can be seen as follows:
+In this lab report, I will go over the steps on how to set up the environment to access a remote server and running commands on the server. This report will involve 6 steps which can be seen as follows:
 
 ## Step 1. Install Visual Studio Code
 
@@ -74,6 +74,21 @@ scp publicprivateketfilelocation cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/authorized_k
 Now, try connecting to the server using ssh. The following will occur:
 
 ![Step 5 Image 1](../images/lab-report-week-2/step5_1.png)
+
+## Step 6. Optimization
+
+After setting up the ssh key, the time to log in drastically reduces. However, this can be further oprimized by using some shortcuts. For example, instead of typing out javac filname.java and java filename every single time, you can use the up and down arrows to cycle back to previous commands used. This would reduce the time taken to run each iteration of you code to just a couple of seconds.
+
+Another one you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ssh cs15lwi22aom@ieng6.ucsd.edu "ls". When this runs, the following is the output:
+
+![Step 5 Image 1](../images/lab-report-week-2/step6_1.png)
+
+This is it for the tutorial, I hope it was helpful.
+
+***
+
+[TO GO BACK TO THE HOME PAGE CLICK HERER](https://advaithravishankar.github.io/cse15l-lab-reports/)
+
 
 
 
