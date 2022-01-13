@@ -58,6 +58,28 @@ Next step, access the terminal as in step 2 and the tyoe the ls command. You wil
 
 ![Step 4 Image 1](../images/lab-report-week-2/step4_1.png)
 
+## Step 5. Setting Up A SSH Key
+
+To make the process into logging into a server easier, a ssh key is used to remove the password authentication process of the connection step. This way by typing the ssh command automatically logs you into the server.
+
+On the terminal, type: ssh-keygen. This will generate a public private key on your pc and this shoud be saved in a file in your pc.
+
+Then, connect to the server as shown in step 2 and create a new directory called ".ssh". Run the command mkdir .ssh
+
+exit the server and then copy the ssh key into the .ssh directory by using the scp command.
+
+command:
+scp publicprivateketfilelocation cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/authorized_keys
+
+Now, try connecting to the server using ssh. The following will occur:
+
+![Step 5 Image 1](../images/lab-report-week-2/step5_1.png)
+
+
+
+
+
+
 
 
 
