@@ -3,10 +3,10 @@
 
 **In this Website, there are several links given below which direct you to the various projects I have worked on in this course. So, let go started!**
 
-![HomePageImage](./images/index/index_page.png)
+<center>![HomePageImage](./images/index/index_page.png)</center>
 
-Click on [this](https://advaithravishankar.github.io/cse15l-lab-reports/home.html) to go to the home page.
+>1. Click on [this](https://advaithravishankar.github.io/cse15l-lab-reports/home.html) to go to the home page.
 
-Click on [this](https://advaithravishankar.github.io/cse15l-lab-reports/lab-report-1-week-2.html) to go to the lab of week 2.
+>2. Click on [this](https://advaithravishankar.github.io/cse15l-lab-reports/lab-report-1-week-2.html) to go to the lab of week 2.
 
 If you need any help, contact me!!!
