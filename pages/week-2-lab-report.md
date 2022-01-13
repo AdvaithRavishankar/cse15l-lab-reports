@@ -12,8 +12,6 @@ Download the version corresponding to your operating system and run it to instal
 
 ![Step 1 Image 2](../images/lab-report-week-2/step1_2.png)
 
-This marks the end of step 1 as visual studio is now on your machine.
-
 ## Step 2. Remote Connection
 
 For the purpose of this lab report, I will be connecting to the UCSD engineering lab's servers. This can be doen by using your user name which is the form cs15lwi22zzz@ieng6.ucsd.edu where "zzz" is a unique code associated to your account. Contact UCSD for setting the password. After having the username and password, we can now connect to the server.
@@ -30,8 +28,23 @@ After inputting your password correctly, you will now be connected to the server
 
 ![Step 2 Image 3](../images/lab-report-week-2/step2_3.png)
 
+## Step 3. Remote Connection
 
-This marks the end of step 2 as you are now remotely connected to the server.
+After connecting to the server, I tried some commands:
+1. ls - lists all the directories on the account
+2. cd - change directory
+3. exit - which disconnects you from the server
+
+running the commands on the terminal leads to the following result:
+
+![Step 3 Image 1](../images/lab-report-week-2/step3_1.png)
+
+## Step 4. Moving Files From Client to Server
+
+
+
+
+
 
 
 
