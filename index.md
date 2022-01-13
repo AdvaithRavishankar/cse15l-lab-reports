@@ -3,4 +3,6 @@
 
 Click on [this](https://advaithravishankar.github.io/cse15l-lab-reports/home.md) to go to the home page.
 
+![this](https://advaithravishankar.github.io/cse15l-lab-reports/home.md)
+
 If you need any help, contact me!!!
