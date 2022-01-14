@@ -42,7 +42,7 @@ Running the commands on the terminal leads to the following result:
 
 ## Step 4. Moving Files From Client to Server
 
-To move files from the client on the server, an scp command must be run from the terminal from the client. In VScode, create a file called WhereAmI.java with the following content:
+To move files from the client onto the server, a scp (shell copy) command must be run from the client terminal. In VScode, create a file called WhereAmI.java with the following content:
 
 class WhereAmI {
     public static void main(String[] args) {
@@ -67,7 +67,7 @@ On the terminal, type: ssh-keygen. This will generate a public private key on yo
 
 Then, connect to the server as shown in step 2 and create a new directory called ".ssh". Run the command mkdir .ssh
 
-exit the server and then copy the ssh key into the .ssh directory by using the scp command.
+Exit the server and then copy the ssh key into the .ssh directory by using the scp command.
 
 command:
 scp publicprivateketfilelocation cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/authorized_keys
@@ -78,17 +78,17 @@ Now, try connecting to the server using ssh. The following will occur:
 
 ## Step 6. Optimization
 
-After setting up the ssh key, the time to log in drastically reduces. However, this can be further oprimized by using some shortcuts. For example, instead of typing out javac filname.java and java filename every single time, you can use the up and down arrows to cycle back to previous commands used. This would reduce the time taken to run each iteration of you code to just a couple of seconds.
+After setting up the ssh key, the time to log in drastically reduces. However, this can be further optimized by using some shortcuts. For example, instead of typing out javac filname.java and java filename every single time, you can use the up and down arrows to cycle back to previous commands used. This would reduce the time taken to run each iteration of your code to just a couple of seconds.
 
-Another one you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ssh cs15lwi22aom@ieng6.ucsd.edu "ls". When this runs, the following is the output:
+Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ssh cs15lwi22aom@ieng6.ucsd.edu "ls". When this runs, the following is the output:
 
-![Step 5 Image 1](../images/lab-report-week-2/step6_1.png)
+![Step 6 Image 1](../images/lab-report-week-2/step6_1.png)
 
 This is it for the tutorial, I hope it was helpful.
 
 ***
 
-[TO GO BACK TO THE HOME PAGE CLICK HERER](https://advaithravishankar.github.io/cse15l-lab-reports/)
+[TO GO BACK TO THE HOME PAGE CLICK HERE](https://advaithravishankar.github.io/cse15l-lab-reports/)
 
 
 
