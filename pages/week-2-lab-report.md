@@ -16,26 +16,27 @@ Download the version corresponding to your operating system and run it to instal
 
 For the purpose of this lab report, I will be connecting to the UCSD engineering lab's servers. This can be doen by using your user name which is the form cs15lwi22zzz@ieng6.ucsd.edu where "zzz" is a unique code associated to your account. Contact UCSD for setting the password. After having the username and password, we can now connect to the server.
 
-To connect the server, the ssh (secure shell) command will be used in the terminal. Open VScode and open on the termianl tab. Click on the New Terminal Option as shown below:
+To connect to the server, the ssh (secure shell) command will be used in the terminal. Open VScode and open the termianl tab. Click on the New Terminal Option as shown below:
 
 ![Step 2 Image 1](../images/lab-report-week-2/step2_1.png)
 
-This will open a terminal on the bottom of the screen. On the terminal. type: ssh cs15lwi22zzz@ieng6.ucsd.edu . This will connect you to the server, asking you for a password as shown below:
+This will open a terminal on the bottom of the screen. On the terminal, type: ssh cs15lwi22zzz@ieng6.ucsd.edu . This will connect you to the server, asking you for a password as shown below:
 
 ![Step 2 Image 2](../images/lab-report-week-2/step2_2.png)
 
-After inputting your password correctly, you will now be connected to the server as shwon below:
+After inputting your password correctly, you will now be connected to the server as shown below:
 
 ![Step 2 Image 3](../images/lab-report-week-2/step2_3.png)
 
-## Step 3. Remote Connection
+## Step 3. Running Commands
 
-After connecting to the server, I tried some commands:
+After connecting to the server, You can try some commands:
 1. ls - lists all the directories on the account
 2. cd - change directory
 3. exit - which disconnects you from the server
+4. mkdir - makes a directory
 
-running the commands on the terminal leads to the following result:
+Running the commands on the terminal leads to the following result:
 
 ![Step 3 Image 1](../images/lab-report-week-2/step3_1.png)
 
