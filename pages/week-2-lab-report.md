@@ -1,4 +1,4 @@
-# Week 2 Lab Report 
+# Week 2 Lab Report - 1
 ***
 In this lab report, I will go over the steps on how to set up the environment to access a remote server and running commands on the server. This report will involve 6 steps which can be seen as follows:
 
