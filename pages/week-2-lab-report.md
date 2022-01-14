@@ -61,9 +61,9 @@ Next step, access the terminal as in step 2 and the type the ls command. You wil
 
 ## Step 5. Setting Up A SSH Key
 
-To make the process into logging into a server easier, a ssh key is used to remove the password authentication process of the connection step. This way by typing the ssh command automatically logs you into the server.
+To make the process of logging into a server easier, a ssh key is used to remove the password authentication process of the connection step. This way by typing the ssh command  logs you into the server automatically.
 
-On the terminal, type: ssh-keygen. This will generate a public private key on your pc and this shoud be saved in a file in your pc.
+On the terminal, type: ssh-keygen. This will generate a public private key on your pc and this shoud be saved in a file on your pc.
 
 Then, connect to the server as shown in step 2 and create a new directory called ".ssh". Run the command mkdir .ssh
 
