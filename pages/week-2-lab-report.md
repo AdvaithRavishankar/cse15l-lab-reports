@@ -14,7 +14,7 @@ Download the version corresponding to your operating system and run it to instal
 
 ## Step 2. Remote Connection
 
-For the purpose of this lab report, I will be connecting to the UCSD engineering lab's servers. This can be done by using your username which is the form cs15lwi22zzz@ieng6.ucsd.edu where "zzz" is a unique code associated to your account. Contact UCSD for setting the password. After having the username and password, we can now connect to the server.
+For the purpose of this lab report, I will be connecting to the UCSD engineering lab's servers. This can be done by using your username which is the form ```cs15lwi22zzz@ieng6.ucsd.edu where``` "zzz" is a unique code associated to your account. Contact UCSD for setting the password. After having the username and password, we can now connect to the server.
 
 To connect to the server, the ssh (secure shell) command will be used in the terminal. Open VScode and open the termianl tab. Click on the New Terminal Option as shown below:
 
@@ -31,10 +31,10 @@ After inputting your password correctly, you will now be connected to the server
 ## Step 3. Running Commands
 
 After connecting to the server, You can try some commands:
-1. ls - lists all the directories on the account
-2. cd - change directory
-3. exit - which disconnects you from the server
-4. mkdir - makes a directory
+1. ```ls``` - lists all the directories on the account
+2. ```cd``` - change directory
+3. ```exit``` - which disconnects you from the server
+4. ```mkdir``` - makes a directory
 
 Running the commands on the terminal leads to the following result:
 
@@ -43,7 +43,7 @@ Running the commands on the terminal leads to the following result:
 ## Step 4. Moving Files From Client to Server
 
 To move files from the client onto the server, a scp (shell copy) command must be run from the client's terminal. In VScode, create a file called WhereAmI.java with the following content:
-
+```
 class WhereAmI {
     public static void main(String[] args) {
       System.out.println(System.getProperty("os.name"));
@@ -52,8 +52,9 @@ class WhereAmI {
       System.out.println(System.getProperty("user.dir"));
     }
   }
+ ```
 
-Then, on the terminal, type: scp WhereAmI.java cs15lwi22zzz@ieng6.ucsd.edu:~/. Your password will be asked and then the file will be uploaded.
+Then, on the terminal, type: ```scp WhereAmI.java cs15lwi22zzz@ieng6.ucsd.edu:~/.``` Your password will be asked and then the file will be uploaded.
 
 Next step, access the terminal as in step 2 and the type the ls command. You will see the WhereAmI.java on the list. Run the javac and java command, resulting in the necessary output.
 
@@ -63,16 +64,16 @@ Next step, access the terminal as in step 2 and the type the ls command. You wil
 
 To make the process of logging into a server easier, a ssh key is used to remove the password authentication process of the connection step. This way by typing the ssh command  logs you into the server automatically.
 
-On the terminal, type: ssh-keygen. This will generate a public private key on your pc and this shoud be saved in a file on your pc.
+On the terminal, type: ```ssh-keygen```. This will generate a public private key on your pc and this shoud be saved in a file on your pc.
 
-Then, connect to the server as shown in step 2 and create a new directory called ".ssh". Run the command mkdir .ssh
+Then, connect to the server as shown in step 2 and create a new directory called ```.ssh```. Run the command ```mkdir .ssh```.
 
-Exit the server and then copy the ssh key into the .ssh directory by using the scp command.
+Exit the server and then copy the ssh key into the .ssh directory by using the ```scp``` command.
 
 command:
-'''
+```
 scp publicprivateketfilelocation cs15lwi22zzz@ieng6.ucsd.edu:~/.ssh/authorized_keys
-'''
+```
 
 Now, try connecting to the server using ssh. The following will occur:
 
@@ -84,7 +85,7 @@ After setting up the ssh key, the time to log in drastically reduces. However, t
 
 ![Step 6 Image 1](../images/lab-report-week-2/Step6_1.gif)
 
-Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ssh cs15lwi22aom@ieng6.ucsd.edu "ls". When this runs, the following is the output:
+Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ```ssh cs15lwi22aom@ieng6.ucsd.edu "ls"```. When this runs, the following is the output:
 
 ![Step 6 Image 2](../images/lab-report-week-2/step6_1.png)
 
