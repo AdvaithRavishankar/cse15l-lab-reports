@@ -20,7 +20,7 @@ To connect to the server, the ssh (secure shell) command will be used in the ter
 
 ![Step 2 Image 1](../images/lab-report-week-2/step2_1.png)
 
-This will open a terminal on the bottom of the screen. On the terminal, type: ssh cs15lwi22zzz@ieng6.ucsd.edu . This will connect you to the server, asking you for a password as shown below:
+This will open a terminal on the bottom of the screen. On the terminal, type: ''' ssh cs15lwi22zzz@ieng6.ucsd.edu '''. This will connect you to the server, asking you for a password as shown below:
 
 ![Step 2 Image 2](../images/lab-report-week-2/step2_2.png)
 
