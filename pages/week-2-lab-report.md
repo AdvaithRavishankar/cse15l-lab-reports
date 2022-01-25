@@ -84,7 +84,7 @@ After setting up the ssh key, the time to log in drastically reduces. However, t
 
 Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ssh cs15lwi22aom@ieng6.ucsd.edu "ls". When this runs, the following is the output:
 
-![Step 6 Image 1](../images/lab-report-week-2/step6_1.png)
+![Step 6 Image 1](../images/lab-report-week-2/step6_1.gif)
 
 This is it for the tutorial, I hope it was helpful.
 
