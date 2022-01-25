@@ -80,11 +80,13 @@ Now, try connecting to the server using ssh. The following will occur:
 
 ## Step 6. Optimization
 
-After setting up the ssh key, the time to log in drastically reduces. However, this can be further optimized by using some shortcuts. For example, instead of typing out javac filname.java and java filename every single time, you can use the up and down arrows to cycle back to previous commands used. This would reduce the time taken to run each iteration of your code to just a couple of seconds.
+After setting up the ssh key, the time to log in drastically reduces. However, this can be further optimized by using some shortcuts. For example, instead of typing out javac filname.java and java filename every single time, you can use the up and down arrows to cycle back to previous commands used. This would reduce the time taken to run each iteration of your code to just a couple of seconds:
+
+![Step 6 Image 1](../images/lab-report-week-2/Step6_1.gif)
 
 Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ssh cs15lwi22aom@ieng6.ucsd.edu "ls". When this runs, the following is the output:
 
-![Step 6 Image 1](../images/lab-report-week-2/step6_1.gif)
+![Step 6 Image 2](../images/lab-report-week-2/step6_1.png)
 
 This is it for the tutorial, I hope it was helpful.
 
