@@ -14,7 +14,7 @@ Download the version corresponding to your operating system and run it to instal
 
 ## Step 2. Remote Connection
 
-For the purpose of this lab report, I will be connecting to the UCSD engineering lab's servers. This can be done by using your username which is the form cs15lwi22zzz@ieng6.ucsd.edu where "zzz" is a unique code associated to your account. Contact UCSD for setting the password. After having the username and password, we can now connect to the server.
+For the purpose of this lab report, I will be connecting to the UCSD engineering lab's servers. This can be done by using your username which is the form '''cs15lwi22zzz@ieng6.ucsd.edu where "zzz" is a unique code associated to your account. Contact UCSD for setting the password. After having the username and password, we can now connect to the server.
 
 To connect to the server, the ssh (secure shell) command will be used in the terminal. Open VScode and open the termianl tab. Click on the New Terminal Option as shown below:
 
