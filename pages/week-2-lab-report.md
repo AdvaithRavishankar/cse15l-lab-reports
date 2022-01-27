@@ -85,7 +85,7 @@ After setting up the ssh key, the time to log in drastically reduces. However, t
 
 ![Step 6 Image 1](../images/lab-report-week-2/Step6_1.gif)
 
-Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, ```ssh cs15lwi22aom@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```. When this runs, the file will run directly on the server without you logging in:
+Another shortcut you can use is running a command on the server by mentioning the server command at the end of the ssh command. For example, upload the same WhereAmI.java file and excecute ```ssh cs15lwi22aom@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"```. When this runs, the file will run directly on the server without you logging in:
 
 ![Step 6 Image 2](../images/lab-report-week-2/step6_1.png)
 
