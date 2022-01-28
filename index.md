@@ -8,7 +8,7 @@ In this website, there are several links given below which direct you to the var
 
 1. [LAB WEEK 2 Content](https://advaithravishankar.github.io/cse15l-lab-reports/labs/lab-week-2.md.html)
 2. [LAB REPORT 1 - WEEK 2](https://advaithravishankar.github.io/cse15l-lab-reports/pages/week-2-lab-report.html)
-
+3. [LAB REPORT 2 - WEEK 3](https://advaithravishankar.github.io/cse15l-lab-reports/pages/lab_report_2.md.html)
 
 ***
 
