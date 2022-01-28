@@ -52,7 +52,7 @@ When this is rerun, the symptom is now resolved:
 
 Therefore, the relationship between the bug and the symptom is that the symptom was caused due to a lack of conditional edge testing again. The failure inducing input of a blank ending line caused the infinite loop.
 
-## Test 3 - Imgaes as links
+## Test 3 - Images as links
 
 In Markdown, the image format is ```![](...)```. This however, does not function as the definitiion of a link. Therefore, to observe this symptom, we use the following test file:
 
