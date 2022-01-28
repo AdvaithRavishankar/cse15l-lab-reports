@@ -1,6 +1,6 @@
-## Lab Report 2 - Debugging MarkdownParse
+# Lab Report 2 - Debugging MarkdownParse
 ---
-# Original File
+## Original File
 
 the original file can be seen below which was forked:
 
