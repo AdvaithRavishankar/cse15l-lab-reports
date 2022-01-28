@@ -5,3 +5,27 @@
 the original file can be seen below which was forked:
 
 ![git1](../images/lab_report_2/git_1.png)
+
+The purpose of this file was to take an input mardown file and output all the links in the file. In general the file worked fun however, there were some bugs and symptoms with the program that was fixed. This lab report will go over three such changes:
+
+## Test 1
+
+The first issue encountered in the group discussion was the fact that the program would read all characters in the link format. However, these supposed "links" may not acctaually be a link but some characters. Therefore to fix this symptom, a test file was committed:
+
+![test1](../images/lab_report_2/test_1.png)
+
+When the ```MarkdownParse.java``` file was compiled and run, it lead to the following symptom of the word "hi" being intoduced as a link:
+
+![error1](../images/lab_report_2/error_1.png)
+
+To fix this symptom, we added a condition to check whether it was a web link. The if statement checked whether if it contained ```http:// or https://``` as they were needs in web based urls. The committed file change is as shown:
+
+![git2](../images/lab_report_2/git_2.png)
+
+When this was compiled, the bug of the lacking if statement was fixed. This can be seen below when the code was recompiled:
+
+![error_f1](../images/lab_report_2/error_1_fixed.png)
+
+Therefore, the relationship between the bug and the symptom is that the symptom was caused due to a lack of conditional edge testeing of the file. The failure inducing input of a supposed "masked link" caused the issue.
+
+## Test 2
