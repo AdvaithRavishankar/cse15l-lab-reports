@@ -8,7 +8,7 @@ the original file can be seen below which was forked:
 
 The purpose of this file was to take an input mardown file and output all the links in the file. In general the file worked fun however, there were some bugs and symptoms with the program that was fixed. This lab report will go over three such changes:
 
-## Test 1
+## Test 1 - Masked Links
 
 The first issue encountered in the group discussion was the fact that the program would read all characters in the link format. However, these supposed "links" may not acctaually be a link but some characters. Therefore to fix this symptom, a test file was committed:
 
@@ -26,6 +26,30 @@ When this was compiled, the bug of the lacking if statement was fixed. This can 
 
 ![error_f1](../images/lab_report_2/error_1_fixed.png)
 
-Therefore, the relationship between the bug and the symptom is that the symptom was caused due to a lack of conditional edge testeing of the file. The failure inducing input of a supposed "masked link" caused the issue.
+Therefore, the relationship between the bug and the symptom is that the symptom was caused due to a lack of conditional edge testing of the file. The failure inducing input of a supposed "masked link" caused the issue.
 
-## Test 2
+## Test 2 - Extra Line Infinite Loop
+
+Another symptom which was encoutered is when the test file had a blank line at the end of it as shown below:
+
+![test2](../images/lab_report_2/test_2.png)
+
+To see what the symptom is, the follwoing changes are needed to the ```MarkdownParse.java``` file:
+
+![git3](../images/lab_report_2/git_3.png)
+
+When this is compiled and run, an infinite loop is encountered:
+
+![error2](../images/lab_report_2/error_2.png)
+
+To fix this issue, the bug in the code needs to be addressed by adding a conditonal check for repeated loops:
+
+![git4](../images/lab_report_2/git_4.png)
+
+When this is rerun, the symptom is now resolved:
+
+![error_f2](../images/lab_report_2/error_2_fixed.png)
+
+Therefore, the relationship between the bug and the symptom is that the symptom was caused due to a lack of conditional edge testing again. The failure inducing input of a blank ending line caused the infinite loop.
+
+## Test 3 - Extra Brackets
