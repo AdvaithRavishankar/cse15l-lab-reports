@@ -10,7 +10,7 @@ The purpose of this file was to take an input mardown file and output all the li
 
 ## Test 1 - Masked Links
 
-The first issue encountered in the group discussion was the fact that the program would read all characters in the link format. However, these supposed "links" may not acctaually be a link but some characters. Therefore to fix this symptom, a test file was committed:
+The first issue encountered in the group discussion was the fact that the program would read all characters in the link format. However, these supposed "links" may not acctaually be a link but some characters. Therefore to fix this symptom, a test file was committed ([Link To File](https://github.com/AdvaithRavishankar/markdown-parse/blob/main/test_1.md)):
 
 ![test1](../images/lab_report_2/test_1.png)
 
@@ -30,7 +30,7 @@ Therefore, the relationship between the bug and the symptom is that the symptom 
 
 ## Test 2 - Extra Line Infinite Loop
 
-Another symptom which was encoutered is when the test file had a blank line at the end of it as shown below:
+Another symptom which was encoutered is when the test file had a blank line at the end of it as shown below ([Link To File](https://github.com/AdvaithRavishankar/markdown-parse/blob/main/test_2.md)):
 
 ![test2](../images/lab_report_2/test_2.png)
 
@@ -54,7 +54,7 @@ Therefore, the relationship between the bug and the symptom is that the symptom 
 
 ## Test 3 - Images as links
 
-In Markdown, the image format is ```![](...)```. This however, does not function as the definitiion of a link. Therefore, to observe this symptom, we use the following test file:
+In Markdown, the image format is ```![](...)```. This however, does not function as the definitiion of a link. Therefore, to observe this symptom, we use the following test file ([Link To File](https://github.com/AdvaithRavishankar/markdown-parse/blob/main/test_3.md)):
 
 ![test3](../images/lab_report_2/test_3.png)
 
