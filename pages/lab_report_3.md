@@ -37,11 +37,11 @@ It looks like the tests ran.
 
 ## Step 5. Testing Efficieintly
 
-Now let us try running all these statments in one line. Type .
+Now let us try running all these statments in one line. Type ```a```.
 
 ![step6](../images/lab_report_3/step_6.png)
 
-Now all the tests ran in one line. Effieient don't you think? 
+Now all the tests ran in one line. Effiecient don't you think? 
 
 Thank you for reading this lab report
 
