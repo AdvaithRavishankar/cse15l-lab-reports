@@ -41,6 +41,8 @@ Now let us try running all these statments in one line. Type ```scp -r markdown-
 
 ![step6](../images/lab_report_3/step_6.png)
 
+![step6](../images/lab_report_3/step_7.png)
+
 Now all the tests ran in one line. Effiecient don't you think? 
 
 Thank you for reading this lab report
