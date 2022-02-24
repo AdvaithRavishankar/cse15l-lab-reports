@@ -25,10 +25,24 @@ Now comes the moment of truth. Did it work? To check this, ```ssh``` into your s
 
 ![step4](../images/lab_report_3/step_4.png)
 
-There seems to be the ```markdown-parse``` directory in the folder. Let's check if all the files are uploaded. run ```cd markdown``` followd by ```cd nested_dir``` to check if everything worked.
+There seems to be the ```markdown-parse``` directory in the folder with all the files.
+
+## Step 4. Testing
+
+On the server, let us run the tests. Using the makefile commands, run the Junit test by typing ```make test```.
 
 ![step5](../images/lab_report_3/step_5.png)
 
-Voila! Everything has been uploaded. Thank you for reading this lab report
+It looks like the tests ran.
+
+## Step 5. Testing Efficieintly
+
+Now let us try running all these statments in one line. Type .
+
+![step6](../images/lab_report_3/step_6.png)
+
+Now all the tests ran in one line. Effieient don't you think? 
+
+Thank you for reading this lab report
 
 THIS IS THE END OF THE LAB REPORT
