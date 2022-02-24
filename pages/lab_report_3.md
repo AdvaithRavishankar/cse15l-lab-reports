@@ -10,6 +10,7 @@ Therefore, this lab report will present a simple process of doing it using ```ma
 For this process, we are using the ```markdown-parse``` directory. The image below shows the directory:
 
 ![step1](../images/lab_report_3/step_1.png)
+
 ![step2](../images/lab_report_3/step_2.png)
 
 ## Step 2. Upload Files
