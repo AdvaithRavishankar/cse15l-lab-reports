@@ -70,7 +70,7 @@ Find below a screenshot of all the tests we are running:
 
 ![step2](../images/lab_report_4/step_2.png)
 
-When this is uploaded and run on the ieng6 server, the following Junit results are seen:
+When this is cloned using the ```git clone``` command and run on the ieng6 server, the following Junit results are seen:
 
 ![step3](../images/lab_report_4/step_3.png)
 
@@ -90,7 +90,7 @@ Find below a screenshot of all the tests we are running:
 
 ![step5](../images/lab_report_4/step_5.png)
 
-When this is uploaded and run on the ieng6 server, the following Junit results are seen:
+When this is ```git clone``` commandand run on the ieng6 server, the following Junit results are seen:
 
 ![step6](../images/lab_report_4/step_6.png)
 
