@@ -7,11 +7,11 @@ Therefore, this lab report will present a simple process of doing it.
 
 ## Step 1. Make Directory
 
-For the purpose of this report, let us create a new directory called ```new_dir``` in a folder. I am using my CSE15L folder for convienence:
+For the purpose of this report, I am going to upload my directory called ```markdown-parse``` in a folder. I am using my CSE15L folder for convienence:
 
 ![step1](../images/lab_report_3/step_1.png)
 
-Open the folder where ```new_dir``` is located in using VScode.
+Open the folder where ```markdown-parse``` is located in using VScode.
 
 ## Step 2. Creating A Couple of Files
 
