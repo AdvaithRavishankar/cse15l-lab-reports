@@ -96,4 +96,12 @@ When this is ```git clone``` commandand run on the ieng6 server, the following J
 
 Out of all tests, only the snippet 3 fails.
 
+## Step 6. Anlysis
+
+For snippet 1, my code works as I had prevously accounted for the fact that if a link does not have a ```http or https``` it is not a link. Therefore my implementation works effectively.
+
+For snippet 2, my code works as I had accunted for nested brackets and again a lack of ```http or https```. Hence, no changes are required.
+
+For snippet 3, however, there is an error of String out of bounds expception. This can be fixed by adding a couple of if statments to avoid the error of these edge cases. Therefore, a change is required.
+
 
