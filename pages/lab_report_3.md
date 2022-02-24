@@ -37,7 +37,7 @@ It looks like the tests ran.
 
 ## Step 5. Testing Efficieintly
 
-Now let us try running all these statments in one line. Type ```a```.
+Now let us try running all these statments in one line. Type ```scp -r markdown-parse ssh cs15lwi22aom@ieng6.ucsd.edu:~/files; ssh cs15lwi22aom@ieng6.ucsd.edu "cd files/markdown-parse; make test"```.
 
 ![step6](../images/lab_report_3/step_6.png)
 
