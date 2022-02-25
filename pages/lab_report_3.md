@@ -39,7 +39,7 @@ It looks like the tests ran.
 
 Now let us try running all these statments in one line. Type ```scp -r markdown-parse cs15lwi22aom@ieng6.ucsd.edu:~/files; ssh cs15lwi22aom@ieng6.ucsd.edu "cd files/markdown-parse; make test"```.
 
-![step6](../images/lab_report_3/step_6.png)
+![step6](../images/lab_report_3/step_6_2.png)
 
 ![step6](../images/lab_report_3/step_7.png)
 
