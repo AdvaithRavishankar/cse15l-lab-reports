@@ -1,7 +1,7 @@
 # Lab Report 3 - Uploading An Entire Directory
 ---
 
-Uploading singular files to a server is a simple process. We can also use the same ```scp``` comand to upload an entire folder, each and every file and sub-dierctory, to a server. However, that repeated ```scp``` is a tad bit too tedious. 
+Uploading singular files to a server is a simple process. We can also use the same ```scp``` command to upload an entire folder, each and every file and sub-dierctory, to a server. However, that repeated ```scp``` is a tad bit too tedious. 
 
 Therefore, this lab report will present a simple process of doing it using ```markdown-parse``` directory.
 
