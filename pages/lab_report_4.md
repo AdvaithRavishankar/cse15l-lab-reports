@@ -59,6 +59,7 @@ And then there's more text
 ## Step 2. My MarkDownParse Implementation
 
 The following image represents my implementation of markdown parse:
+[Link to repository: Markdown](https://github.com/AdvaithRavishankar/markdown-parse)
 
 ![step1](../images/lab_report_4/step_1.png)
 
@@ -79,6 +80,7 @@ Out of all tests, only the snippet 3 fails.
 ## Step 4. Other MarkDownParse Implementation
  
  The following image represents the other implementation of markdown parse:
+ [Link to repository: Markdown](https://github.com/AdvaithRavishankar/markdown-parse)
 
 ![step4](../images/lab_report_4/step_4.png)
 
