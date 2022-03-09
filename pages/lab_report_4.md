@@ -60,7 +60,7 @@ And then there's more text
 
 The following image represents my implementation of markdown parse:
 
-[Link to repository: Markdown](https://github.com/AdvaithRavishankar/markdown-parse)
+[Link to repository: AdvaithRavishankar - Markdown](https://github.com/AdvaithRavishankar/markdown-parse)
 
 ![step1](../images/lab_report_4/step_1.png)
 
@@ -82,7 +82,7 @@ Out of all tests, only the snippet 3 fails.
  
 The following image represents the other implementation of markdown parse:
  
-[Link to repository: Markdown](https://github.com/mramada22/markdown-parse)
+[Link to repository: mramada22 Markdown](https://github.com/mramada22/markdown-parse)
 
 ![step4](../images/lab_report_4/step_4.png)
 
