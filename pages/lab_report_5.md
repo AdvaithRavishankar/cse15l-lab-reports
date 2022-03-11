@@ -36,7 +36,7 @@ On the terminal, I ran the ```bash script.sh``` command of the above bash script
 
 ## Step 3. Error fixing
 
-for both tests, ```My Implementation``` is the correct output as 499 has no valid links in the brackets and whereas 500 has only two where the cse15l implementation also shpws ```#fragmnet``` which is incorrect.
+for both tests, ```My Implementation``` is the correct output as 499 has no valid links in the brackets and 500 has only two where the cse15l implementation also shows ```#fragmnet``` which is incorrect.
 
 The issue with both these problems is that the program takes in any text given in the brackets after a ```[](``` which is not necessarily a link. My code takes into account of this therefore, it is the correct implementation. Here is a an image of my implementation with the correct solution:
 
