@@ -3,7 +3,7 @@
 
 For this Lab report, I am going to compare the results of two tests from the testfiles commonspeck tests directory, in particular 499.md and 500.md [link to tests](https://github.com/ucsd-cse15l-w22/markdown-parse/tree/main/test-files) between [My implementation of markdown-parse](https://github.com/AdvaithRavishankar/markdown-parse) and [the cse15l implementation of markdown-parse](https://github.com/ucsd-cse15l-w22/markdown-parse). I decided to chose these tests by manually seeing all the outputs and checking which ones had a different output between the two implmentations (only 40 or so). I then narrowed it down for presentation by editing the bash script.  
 
-I ran the following bash script to compare the commands:
+I ran the following bash script to compare the outputs:
 
 ![step1](../images/lab_report_5/step_1.png)
 
