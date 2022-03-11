@@ -38,11 +38,11 @@ On the terminal, I ran the ```bash script.sh``` command of the above bash script
 
 for both tests, ```My Implementation``` is the correct output as 499 has no valid links in the brackets and 500 has only two where the cse15l implementation also shows ```#fragmnet``` which is incorrect.
 
-The issue with both these problems is that the program takes in any text given in the brackets after a ```[](``` which is not necessarily a link. My code takes into account of this therefore, it is the correct implementation. Here is a an image of my implementation with the correct solution:
+The issue with both these problems is that the cse15l program takes in any text given in the brackets after a ```[]``` which is not necessarily a link. My code takes into account of this, therefore, it is the correct implementation. Here is a an image of my implementation with the correct solution:
 
 ![step6](../images/lab_report_5/step_6.png)
 
-Therefore, to fix this issue an ```if``` statement needs to be added. There are several more if statements to be added the below implementation of the markdown parse to be correct. Which will lead to several lines of change to ensure that thecse15l representation of markdown-parse runs correctly for this edge case:
+Therefore, to fix this issue an ```if``` statement needs to be added. There are several more if statements to be added to the below cse15l implementation of the markdown parse to be correct. This will lead to several lines of changes to ensure that the cse15l representation of markdown-parse runs correctly for these edge cases:
 
 ![step6](../images/lab_report_5/step_7.png)
 
