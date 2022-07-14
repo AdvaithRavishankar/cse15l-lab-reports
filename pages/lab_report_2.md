@@ -76,3 +76,7 @@ Therefore, the relationship between the bug and the symptom is that the symptom 
 
 THIS IS THE END OF THE LAB REPORT
 
+***
+
+[TO GO BACK TO THE HOME PAGE CLICK HERE](https://advaithravishankar.github.io/cse15l-lab-reports/)
+
