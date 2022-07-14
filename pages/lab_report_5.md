@@ -48,4 +48,8 @@ Therefore, to fix this issue an ```if``` statement needs to be added. There are 
 
 THIS IS THE END OF THE LAB REPORT
 
+***
+
+[TO GO BACK TO THE HOME PAGE CLICK HERE](https://advaithravishankar.github.io/cse15l-lab-reports/)
+
 
